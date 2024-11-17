@@ -14,6 +14,19 @@
                 count++;
             }
         }
+ // Создаем новый массив c определенной длиной
+        string[] ResultArray = new string[count];
+
+        // Заполняем новый массив
+        int index = 0;
+        for (int i = 0; i < InitialArray.Length; i++)
+        {
+            if (InitialArray[i].Length <= 3)
+            {
+                ResultArray[index] = InitialArray[i];
+                index++;
+            }
+        }
 
        
 }
