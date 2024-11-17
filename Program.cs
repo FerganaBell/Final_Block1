@@ -28,6 +28,9 @@
             }
         }
 
+        // Выводим массива в строку через пробел
+        Console.WriteLine("Результат: ");
+        Console.WriteLine(string.Join(" ", ResultArray));     
        
 }
 
