@@ -5,7 +5,7 @@
         string input = Console.ReadLine();
         string[] InitialArray = input.Split(' ');
 
-  // Считаем количество строк, длина которых меньше или равна 3 символам
+// Считаем количество строк, длина которых меньше или равна 3 символам
         int count = 0;
         for (int i = 0; i < InitialArray.Length; i++)
         {
@@ -14,10 +14,10 @@
                 count++;
             }
         }
- // Создаем новый массив c определенной длиной
+// Создаем новый массив c определенной длиной
         string[] ResultArray = new string[count];
 
-        // Заполняем новый массив
+// Заполняем новый массив
         int index = 0;
         for (int i = 0; i < InitialArray.Length; i++)
         {
@@ -28,10 +28,10 @@
             }
         }
 
-        // Выводим массива в строку через пробел
+// Выводим массива в строку через пробел
         Console.WriteLine("Результат: ");
         Console.WriteLine(string.Join(" ", ResultArray));     
-       
+
 }
 
 Main();
